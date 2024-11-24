@@ -1,11 +1,17 @@
+@font-face {
+    font-family: 'CaskaydiaCove';
+    src: url('./fonts/CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* General styles for entire header container */
 .navContainer {
-    width: 100%;
+    font-family: CaskaydiaCove;
+    width: 100vw;
     height: 100%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    padding-left: 5em;
-    padding-right: 5em;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +21,7 @@
 
 /* Styles for the left hand side container in the header, (ReeceKalmar();)*/
 .lhTextContainer {
+    margin-left: 5em;
     width: 25em;
     background: #1D2021;
     border-radius: 1.5em;
@@ -26,16 +33,15 @@
 
 /* Styles for the left hand name text, (ReeceKalmar();)*/
 .nameText {
-    color: #D79921;
+    color: white;
     padding: 1em;
     font-size: 2.5rem;
-    font-family: Cascadia Code;
-    font-weight: 700;
     word-wrap: break-word;
 }
 
 /* Styles for the right hand side container in the header, (Resume Projects)*/
 .rhTextContainer {
+    margin-right: 5em;
     width: 35em;
     overflow: hidden;
     justify-content: space-between;
@@ -46,23 +52,19 @@
 /* Styles for the right hand resume text, (Resume)*/
 .resumeText{
     color: white;
-    background: #E76F00;
+    background: #1D2021;
     padding: 1em;
     border-radius: .75em;
-    font-family: Cascadia Code;
     font-size: 2.5rem;
-    font-weight: 700;
     word-wrap: break-word;
 }
 
 /* Styles for the right hand resume text, (Projects)*/
 .projectText{
     color: white;
-    background: #CD2335;
+    background: #1D2021;
     padding: 1em;
     border-radius: .75em;
-    font-family: Cascadia Code;
     font-size: 2.5rem;
-    font-weight: 700;
     word-wrap: break-word;
 }

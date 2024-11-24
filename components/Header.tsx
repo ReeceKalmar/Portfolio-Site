@@ -3,6 +3,19 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './Header.module.css';
 import Image from 'next/image';
+import localFont from 'next/font/local';
+
+export const caskaydiaCove = localFont({
+    src:[
+    {
+      path: './fonts/CaskaydiaCoveNerdFont-Regular.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-caskaydia-cove',
+  });
+  
 
 const Header: React.FC = () => {
     return (

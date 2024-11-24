@@ -3,7 +3,16 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 
-
+export const jetBrainsMono = localFont({ 
+  src: [
+    {
+      path: './fonts/JetBrainsMonoNerdFont-Regular.ttf', 
+      weight: '400',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-jetbrains-mono',
+});
 
 export const metadata: Metadata = {
   title: "Reece Kalmar Portfolio",
@@ -17,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={jetBrainsMono.variable}>
         <Header />
         {children}
       </body>

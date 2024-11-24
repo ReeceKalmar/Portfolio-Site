@@ -1,66 +1,138 @@
 /* General styles for the home page container */
 .homePageContainer {
+    height: 80vh;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
-    width: 100vw;
-    background-color: #282828;
+    background: #282828;
 }
 
 /* Styles for the section about me container */
 .reeceContainer {
+    height: 75vh;
+    width: 20em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #282828;
-    margin: 2%;
+    justify-content: space-between;
+    background: #3C3836;
+    border-radius: 1em;
+    gap: 2em;
+    padding: .5em;
 }
 
 /* Styles for the media links container in the about me section */
 .mediaLinksContainer {
-    display: inline-block;
-    justify-content: space-evenly;
+    align-self: center;
+    display: flex;
+    background: #EBDBB2;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    ;
+    gap: 4em;
+    border-radius: 2em;
 }
 
 /* Styles for the portrait in about me section */
 .reecePortrait {
-    height: auto;
+    border-radius: 2em;
 }
 
 /* Styles for the about me text in about me section */
 .aboutMeContainer {
-    display: inline-block;
+    color: #EBDBB2;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font-jetbrains-mono);
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Styles for the color of the about me text */
+.aboutMeTitle {
+    color: #CC241D;
+}
+
+.aboutMeName {
+    color: #98971A;
+}
+
+.aboutMeYellow {
+    color: #D79921;
+}
+
+.aboutMeGreyBlue {
+    color: #458588;
+}
+
+.aboutMeOrange {
+    color: #D65D0E;
 }
 
 /* Styles for the section languages container */
 .languageContainer {
+    padding: .5em;
+    height: 75vh;
+    width: 15em;
+    background: #1D2021;
+    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #282828;
-    margin: 2%;
+    justify-content: space-between;
+    border-radius: 1em;
 }
 
 /* Styles for the languages title text in the languages section */
 .languageTitle {
     color: #B8BB26;
-    font-size: 24px;
-    font-family: JetBrains Mono;
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--font-jetbrains-mono);
     font-weight: 400;
-    line-height: 31.71px;
     word-wrap: break-word;
 }
 
 /* Styles for the languages icons container in the languages section */
-.languageIcons{
+.languageIcons {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #282828;
-    margin: 2%;
+    gap: 1em;
+}
+
+/* Styles for the section frameworks container */
+.frameworkContainer {
+    padding: .5em;
+    height: 75vh;
+    width: 15em;
+    background: #3c3836;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1%;
+    border-radius: 1em;
+}
+
+/* Styles for the frameworks title text in the languages section */
+.frameworkTitle {
+    text-align: center;
+    color: #FABD2F;
+    font-size: 2rem;
+    font-family: var(--font-jetbrains-mono);
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for the frameworks icons container in the languages section */
+.frameworkIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
 }
