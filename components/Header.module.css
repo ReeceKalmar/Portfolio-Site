@@ -1,0 +1,68 @@
+/* General styles for entire header container */
+.navContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FBF1C7;
+    box-shadow: 0em .25em .75em .7em rgba(0, 0, 0, 0.25);
+}
+
+/* Styles for the left hand side container in the header, (ReeceKalmar();)*/
+.lhTextContainer {
+    width: 25em;
+    background: #1D2021;
+    border-radius: 1.5em;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the left hand name text, (ReeceKalmar();)*/
+.nameText {
+    color: #D79921;
+    padding: 1em;
+    font-size: 2.5rem;
+    font-family: Cascadia Code;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styles for the right hand side container in the header, (Resume Projects)*/
+.rhTextContainer {
+    width: 35em;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* Styles for the right hand resume text, (Resume)*/
+.resumeText{
+    color: white;
+    background: #E76F00;
+    padding: 1em;
+    border-radius: .75em;
+    font-family: Cascadia Code;
+    font-size: 2.5rem;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styles for the right hand resume text, (Projects)*/
+.projectText{
+    color: white;
+    background: #CD2335;
+    padding: 1em;
+    border-radius: .75em;
+    font-family: Cascadia Code;
+    font-size: 2.5rem;
+    font-weight: 700;
+    word-wrap: break-word;
+}
