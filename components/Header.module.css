@@ -5,13 +5,20 @@
     font-style: normal;
 }
 
+.headerContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 /* General styles for entire header container */
 .navContainer {
     font-family: CaskaydiaCove;
-    width: 100vw;
+    width: 90vw;
     height: 100%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    border-radius: 1em;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +28,7 @@
 
 /* Styles for the left hand side container in the header, (ReeceKalmar();)*/
 .lhTextContainer {
-    margin-left: 5em;
+    margin-left: 6em;
     width: 25em;
     background: #1D2021;
     border-radius: 1.5em;
@@ -41,7 +48,7 @@
 
 /* Styles for the right hand side container in the header, (Resume Projects)*/
 .rhTextContainer {
-    margin-right: 5em;
+    margin-right: 7em;
     width: 35em;
     overflow: hidden;
     justify-content: space-between;
